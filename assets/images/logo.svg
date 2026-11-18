@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" width="280" height="64">
+  <defs>
+    <linearGradient id="logo-leaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#248a46"/>
+      <stop offset="100%" stop-color="#145528"/>
+    </linearGradient>
+    <linearGradient id="logo-shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E4882"/>
+      <stop offset="100%" stop-color="#0B3A6B"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield & Leaf Emblem -->
+  <g transform="translate(6, 6)">
+    <!-- Shield Outline/Back -->
+    <path d="M26 2 C37 2, 48 8, 50 14 C50 32, 38 46, 26 50 C14 46, 2 32, 2 14 C4 8, 15 2, 26 2 Z" fill="url(#logo-shield)"/>
+    <!-- Leaf in Shield -->
+    <path d="M26 10 C34 16, 38 25, 36 34 C30 35, 23 32, 18 26 C15 22, 15 17, 16 13 C19 11, 23 10, 26 10 Z" fill="url(#logo-leaf)"/>
+    <path d="M18 26 C22 28, 28 27, 34 22 C30 31, 24 38, 20 42" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.85"/>
+    <circle cx="26" cy="18" r="2.5" fill="#ffffff"/>
+  </g>
+  <!-- Typography -->
+  <g transform="translate(68, 0)">
+    <text x="0" y="27" font-family="'Inter', system-ui, -apple-system, sans-serif" font-weight="800" font-size="20" fill="#0B3A6B" letter-spacing="-0.4">GREEN PEST</text>
+    <text x="133" y="27" font-family="'Inter', system-ui, -apple-system, sans-serif" font-weight="800" font-size="20" fill="#1A6B35" letter-spacing="-0.4">.</text>
+    <text x="0" y="44" font-family="'Inter', system-ui, -apple-system, sans-serif" font-weight="600" font-size="9.5" fill="#1A6B35" letter-spacing="1.8">MANAGEMENT SOLUTION</text>
+    <text x="0" y="56" font-family="'Inter', system-ui, -apple-system, sans-serif" font-weight="500" font-size="8" fill="#5A6570" letter-spacing="0.8">HYDERABAD · SAFE &amp; CERTIFIED</text>
+  </g>
+</svg>

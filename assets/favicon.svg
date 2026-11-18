@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="fav-shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E4882"/>
+      <stop offset="100%" stop-color="#0B3A6B"/>
+    </linearGradient>
+    <linearGradient id="fav-leaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#28a745"/>
+      <stop offset="100%" stop-color="#145528"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0B3A6B"/>
+  <path d="M32 8 C46 8, 56 16, 56 24 C56 46, 42 56, 32 60 C22 56, 8 46, 8 24 C8 16, 18 8, 32 8 Z" fill="url(#fav-leaf)"/>
+  <path d="M32 18 C41 24, 45 34, 42 42 C36 43, 29 40, 23 33 C20 29, 20 23, 21 19 C24 17, 29 18, 32 18 Z" fill="#ffffff" opacity="0.95"/>
+  <circle cx="32" cy="27" r="3" fill="#145528"/>
+</svg>
