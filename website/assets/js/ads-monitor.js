@@ -1,6 +1,6 @@
 /* Privacy-aware, ad-attributed landing-session telemetry. No Google click IDs are transmitted. */
 (()=>{
- const API='https://REPLACE-WORKER.YOUR-SUBDOMAIN.workers.dev';
+ const API='https://fragrant-union-7515.rebeccaf724.workers.dev';
  if(API.includes('REPLACE-WORKER'))return;
  const p=new URLSearchParams(location.search);
  const kind=['gclid','gbraid','wbraid'].find(k=>p.has(k));
