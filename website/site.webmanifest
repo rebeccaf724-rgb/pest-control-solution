@@ -1,0 +1,14 @@
+{
+  "name": "Green Pest Management Solution",
+  "short_name": "Green Pest",
+  "description": "Pest control in Hyderabad with published prices and written warranties.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0B2A4A",
+  "icons": [
+    { "src": "assets/images/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "assets/images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
