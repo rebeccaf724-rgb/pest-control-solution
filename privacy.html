@@ -30,6 +30,25 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Green Pest">
   <script src="/assets/js/ads-monitor.js" defer></script>
+  <!-- Event snippet for Click to call conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18564882618/KvtzCLeBgLUdELrBtpRF',
+      'value': 1.0,
+      'currency': 'INR',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
 </head>
 <body>
 <a class="sr-only" href="#main">Skip to content</a>
